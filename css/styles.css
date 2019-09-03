@@ -12,6 +12,9 @@ h3{
 p{
   margin:0;
 }
+.titlehr{
+  background-color: red;
+}
 /****************Main Container *****************/
 .main-container{
   background-color: #7b8ead;
@@ -53,12 +56,26 @@ p{
   height:100%;
   width: 550px;
 }
+.small-box:hover{
+  background-color: #f2f7fc;
+  float:left;
+  height:100%;
+  width: 550px;
+    border:1px solid red;
+}
 
 .big-box{
   background-color: #E9ECEF;
   float:right;
   height:100%;
   width: 440px;
+}
+.big-box:Hover{
+  background-color: #f2f7fc;
+  float:right;
+  height:100%;
+  width: 440px;
+  border:1px solid red;
 }
 /************** Third Container *****************/
 .third-container{
@@ -72,7 +89,13 @@ p{
   float:left;
   height:100%;
   width: 440px;
-
+}
+.small-box2:hover{
+  background-color: #f2f7fc;
+  float:left;
+  height:100%;
+  width: 440px;
+  border:1px solid red;
 }
 .big-box2{
   background-color: #E9ECEF;
@@ -80,13 +103,20 @@ p{
   height:100%;
   width: 550px;
 }
+.big-box2:hover{
+  background-color: #f2f7fc;
+  float:right;
+  height:100%;
+  width: 550px;
+border:1px solid red;
+}
 #news-heading{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size:7rem;
-  color:#2b4a6e;
+  font-size:4rem;
+
 }
 #education{
   font-family: 'Roboto Condensed', sans-serif;
-  font-size:7rem;
-  color:#a63e38;
+  font-size:4rem;
+
 }
