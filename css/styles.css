@@ -1,6 +1,7 @@
 body{
   margin:0;
-  
+  background-color:#9dbedd;
+
 }
 h1{
   margin:0;
@@ -41,20 +42,20 @@ p{
 }
 /************** Second Container *****************/
 .second-container{
-  height: 450px;
+  height: 100px;
   width:1000px;
   text-align:center;
   margin:10px auto;
 }
 .small-box{
-  background-color: #a63e38;
+  background-color: #E9ECEF;
   float:left;
   height:100%;
   width: 550px;
 }
 
 .big-box{
-  background-color: #2b4a6e;
+  background-color: #E9ECEF;
   float:right;
   height:100%;
   width: 440px;
@@ -67,14 +68,14 @@ p{
   margin:10px auto;
 }
 .small-box2{
-  background-color: #2a572b;
+  background-color: #E9ECEF;
   float:left;
   height:100%;
   width: 440px;
 
 }
 .big-box2{
-  background-color: #3a3d22;
+  background-color: #E9ECEF;
   float:right;
   height:100%;
   width: 550px;
